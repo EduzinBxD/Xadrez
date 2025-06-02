@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background-color:beige;
+}
+
+.Header {
+    background-color:rgb(164, 164, 103);
+    color: white;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    width: 100%;
+}
+
+.Tabuleiro {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Linha {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+}
+
+.Selecionada {
+    border: 1px solid black;
+    box-shadow: 0 0 0 1px black inset;
+}
+
+img {
+    height: 50px;
+    width: 40px;
+}
+
+.Branca {
+    background-color: rgb(183, 255, 116);
+}
+
+.Preta {
+    background-color: #82b850;;
+}
+
+.PossivelCaminho {
+    border: 3px solid rgb(0, 179, 255);
+    box-shadow: 0 0 0 3px rgb(0, 179, 255) inset;
+}
+
+.PossivelCaptura {
+    border: 3px solid rgb(255, 61, 61);
+    box-shadow: 0 0 0 3px rgb(255, 61, 61) inset;
+}

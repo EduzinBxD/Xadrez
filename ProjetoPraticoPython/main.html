@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xadrez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Header">
+        <h1>Xadrezinho né pai</h1>
+    </div>
+    
+    <div class="Tabuleiro">
+        <div class="Linha">
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="A, 8">
+                <img src="./imagens/TorreBlack.png">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="B, 8">
+                <img src="./imagens/CavaloBlack.png">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="C, 8">
+                <img src="./imagens/BispoBlack.png">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="D, 8">
+                <img src="./imagens/RainhaBlack.png">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="E, 8">
+                <img src="./imagens/ReiBlack.png">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="F, 8">
+                <img src="./imagens/BispoBlack.png">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="G, 8">
+                <img src="./imagens/CavaloBlack.png">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="H, 8">
+                <img src="./imagens/TorreBlack.png">
+            </button>
+        </div>
+        <div class="Linha">
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="A, 7">
+                <img src="./imagens/PeaoBlack.png">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="B, 7">
+                <img src="./imagens/PeaoBlack.png">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="C, 7">
+                <img src="./imagens/PeaoBlack.png">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="D, 7">
+                <img src="./imagens/PeaoBlack.png">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="E, 7">
+                <img src="./imagens/PeaoBlack.png">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="F, 7">
+                <img src="./imagens/PeaoBlack.png">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="G, 7">
+                <img src="./imagens/PeaoBlack.png">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="H, 7">
+                <img src="./imagens/PeaoBlack.png">
+            </button>
+        </div>
+        <div class="Linha">
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="A, 6">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="B, 6">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="C, 6">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="D, 6">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="E, 6">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="F, 6">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="G, 6">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="H, 6">
+            </button>
+        </div>
+        <div class="Linha">
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="A, 5">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="B, 5">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="C, 5">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="D, 5">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="E, 5">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="F, 5">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="G, 5">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="H, 5">
+            </button>
+        </div>
+        <div class="Linha">
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="A, 4">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="B, 4">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="C, 4">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="D, 4">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="E, 4">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="F, 4">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="G, 4">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="H, 4">
+            </button>
+        </div>
+        <div class="Linha">
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="A, 3">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="B, 3">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="C, 3">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="D, 3">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="E, 3">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="F, 3">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="G, 3">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="H, 3">
+            </button>
+        </div>
+        <div class="Linha">
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="A, 2">
+                <img src="./imagens/PeaoWhite.png">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="B, 2">
+                <img src="./imagens/PeaoWhite.png">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="C, 2">
+                <img src="./imagens/PeaoWhite.png">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="D, 2">
+                <img src="./imagens/PeaoWhite.png">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="E, 2">
+                <img src="./imagens/PeaoWhite.png">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="F, 2">
+                <img src="./imagens/PeaoWhite.png">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="G, 2">
+                <img src="./imagens/PeaoWhite.png">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="H, 2">
+                <img src="./imagens/PeaoWhite.png">
+            </button>
+        </div>
+        <div class="Linha">
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="A, 1">
+                <img src="./imagens/TorreWhite.png">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="B, 1">
+                <img src="./imagens/CavaloWhite.png">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="C, 1">
+                <img src="./imagens/BispoWhite.png">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="D, 1">
+                <img src="./imagens/ReiWhite.png">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="E, 1">
+                <img src="./imagens/RainhaWhite.png">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="F, 1">
+                <img src="./imagens/BispoWhite.png">
+            </button>
+            <button class="Preta" onclick="selecionarPeca(this)" data-pos="G, 1">
+                <img src="./imagens/CavaloWhite.png">
+            </button>
+            <button class="Branca" onclick="selecionarPeca(this)" data-pos="H, 1">
+                <img src="./imagens/TorreWhite.png">
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
